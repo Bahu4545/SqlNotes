@@ -1,0 +1,72 @@
+=======================================================
+alter table member_master drop column Companyname
+alter table member_master drop constraint DF__MEMBER_Ma__Compa__58C70E7C
+ ====================================================
+string a= ObjDUT.GetScalar("select transpassword from member_login where 
+regno=" + Session["MaxReg"].ToString() + "").ToString();
+================================================
+Label2.ToolTip =a;
+================================================	
+lnkpay.ForeColor = System.Drawing.Color.Red
+===========================================	
+
+ALTER TABLE [Meeting] ADD  CONSTRAINT [DF__Meeting__Meeting__28F7FFC9]  DEFAULT ((0)) FOR [MeetingState]
+
+ALTER TABLE[Meeting] ADD  CONSTRAINT [DF__Meeting__Meeting__29EC2402]  DEFAULT ((0)) FOR [MeetingCity]
+=================================================
+
+1. if (e.Row.RowType == DataControlRowType.Footer){}   -->gridview
+       if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+		
+		}
+=========================================================================		
+2.if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)-->repeater
+        {
+            Label lblact = (e.Item.FindControl("lblact") as Label);
+		}
+   
+     if (e.Item.ItemType == ListItemType.Footer)
+        {
+		Label lblact = (e.Item.FindControl("lblact") as Label);
+		}
+============================================================================		
+&nbsp; for space
+
+SET @IST = Dateadd(mi, 330, Getutcdate())
+===================================================================
+Previous month ===>
+select sum(totalamount) as toamount from product_order where 
+orderdate >= dateadd(month,datediff(month,0,getdate())-1,0)
+and orderdate < dateadd(month,datediff(month,0,getdate()),0)
+=======================================================
+Weekly ===>
+ string monday = objDUT.GetScalar("SELECT  Dateadd(WEEK, Datediff(WEEK, 0, Getdate()), 0)").ToString();
+ string sunday = objDUT.GetScalar("select Dateadd(WEEK, Datediff(WEEK, 0, Getdate()) + 1, -1)").ToString();
+ =============================================
+Monthly =====>
+ string stdate = objDUT.GetScalar("SELECT  Dateadd(mm, Datediff(mm, 0, Getdate()), 0)").ToString();
+ string endtdate = objDUT.GetScalar("select Dateadd(mm, Datediff(mm, 0, Getdate()) + 1, -1) ").ToString();
+=========================================
+Weekly ===>
+  d2 = Convert.ToDateTime(txttodate.Text);              
+        TimeSpan diff = (d2.Subtract(d1.Date));
+           if ((diff.TotalDays) > 7)
+            {
+             lblMsg.Text = "Please Select Correct Date !!";
+             return;
+            }
+==================================================
+yearly ====>
+
+ and datepart(year,po.OrderDate) = '" + d1.Year + "' order by orderno desc
+ 
+ ====================================================
+<cc1:AutoCompleteExtender ID="AutoCompleteExtender1" runat="server" EnableCaching="true"
+ MinimumPrefixLength="1" ServiceMethod="GetpName"  ServicePath="~/Pcode.asmx" TargetControlID="txtcategree" />
+ 
+ sp_rename 'block.Cid', 'SID', 'COLUMN';
+ 
+ https://youtubemultidownloader.net/playlists.html
+
+https://youtube.com/playlist?list=PLp_RsiLZjwQQ7CxVhnM4G8i5veEClNPfX&si=V7r81cfncChtUBEl						
